@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popin' sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2% 6%;
+}
+.icon{
+    width: 220px;
+    height: 80px;
+    display: block;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    position: relative;
+    display: inline-block;
+    padding: 0px 4px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a :hover{
+    color: yellow;
+}

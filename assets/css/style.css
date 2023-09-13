@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popin' sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2% 4%;
+    background: aqua;
+    
+}
+.icon{
+    width: 220px;
+    height: 80px;
+    display: block;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    position: relative;
+    display: inline-block;
+    padding: 0px 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+
+.content 
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.content .text-box 
+{
+    position: absolute;
+    max-width: 200px;
+    
+}
+.content .text-box h2 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.content .text-box h2 span 
+{
+    font-size: 1em;
+    color: blue;
+}
+.content .text-box p 
+{
+    color: #fff;
+}
+.content .text-box a 
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #a13131;
+    color: #111;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content .text-box a:hover{
+    color: white;
+    transition: 4s;
+    
+}
+header{
+    background:radial-gradient(#fff, #a13131, #fb911f) ;
+}
+.content .img-box 
+{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    background-image: none;
+  
+}
+
+.title {
+    text-align: center ;
+    color: #555;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.title span {
+    color: #fb911f;
+    font-size: 1.5em;
+}
+h4 {
+    color: #555;
+}
+.col-3 p{
+    font-size: 14px;
+}
+.col-3 :hover{
+    transform: translateY(-5px);
+}
+ 
+
+.small-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+} 
+.col-3 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-height: 200px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    text-align: center;
+    transition: 0,5s;
+}
+.col-3 img {
+    width: 300px;
+    box-shadow: 20px 20px 20px 20px ;
+    
+}
+h4 {
+    color: white;
+}
+.prix {
+    color:green;
+}
+h2 {
+    font-size: 22px;
+}
